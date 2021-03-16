@@ -19,9 +19,9 @@
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
 					<h1 id="logo"><a href="#">Jorge I. Martínez-Palomera</a></h1>
-					<p>Postdoctoral Scholar<br />
-						 Astronomy Department<br />
-						 UC Berkeley
+					<p>Research Scientist<br />
+						 Bay Area Environmental Research Institute<br />
+						 NASA Ames
 					</p>
 				</header>
 				<nav id="nav">
@@ -38,7 +38,8 @@
 					<ul class="icons">
 						<!-- <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li> -->
 						<!-- <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li> -->
-						<li><a href="mailto:jorgemarpa@berkeley.edu" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:palomera@baeri.org" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:jorgemarpa@ug.uchile.cl" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						<li><a href="https://github.com/jorgemarpa" class="icon fa-github"><span class="label">Github</span></a></li>
 						<li><a href="https://www.linkedin.com/in/jorge-i-martinez-palomera-99932317a/" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
 						<li><a href="https://www.flickr.com/photos/129543524@N03/" class="icon fa-flickr"><span class="label">Flickr</span></a></li>
@@ -64,10 +65,12 @@
 										<p>Astronomer & Data Scientist <br />
 										   MTB Rider & Astrophotographer</p>
 									</header>
-									<p>I am currently a postdoctoral researcher at the Astronomy Department of the University of California at Berkeley.
-										I am a member of Prof. Josh Bloom's Lab advocated to apply Machine Learning (ML) tools to astronomical challenges.<br />
+									<p> I am a research scientist at The  Bay Area Environmental Researh Institute, NASA Ames, where I work with the Space Science Data Lab
+										developing tools to mine the archival data from Kepler and K2 missions.
+										Previously I was postdoctoral researcher at the Astronomy Department of the University of California at Berkeley.
+										Where I was a member of Prof. Josh Bloom's Lab advocated to apply Machine Learning (ML) tools to astronomical challenges.<br />
 									 My research interests are in time-domain astronomy and the use of Artificial Intelligence tools such
-									 as Machine Learning algorithms to solve astronomical problems. More specifically:
+									 as Machine Learning and Deep Learning to solve astronomical problems. More specifically:
 									 the classification of astronomical variable sources based on time series data;
 									 deep learning models to analyze, classify, and generate data;
 									 and online systems to access, store, annotate and classify astronomical alerts in the ZTF and LSST era.
@@ -104,7 +107,7 @@
 																			<li class="fa-clock-o"> Feature analysis of astronomical time series </li>
 																			<li class="fa-star">Automatic classification of astronomical variable sources with Random Forest </li>
 																			<li class="fa-circle">Search for Intermediate-mass Black holes in Nearby Galaxies</li>
-																			<li class="fa-code"> Coding: Python, IRAF, emcee, AstroPy, Pandas, Scikit-Learn, TensorFlow </li>
+																			<li class="fa-code">Coding: Python, IRAF, emcee, AstroPy, Pandas, Scikit-Learn, TensorFlow, Pytorch, Weight and Biases, etc </li>
 																			<li class="fa-eye">Observational experience (Blanco-DECam, du Pont-WFCCD, Magellans-LDSS3)</li>
 																			<li class="fa-area-chart">Optical Spectroscopy of AGNs and SNe</li>
 																			<li class="fa-picture-o">Wide-field Optical Imaging</li>
@@ -139,6 +142,44 @@
 								<div class="container">
 									<h3>Highlights</h3>
 									<div class="features">
+										<article>
+											<a href="https://github.com/SSDataLab"
+											   class="image"><img src="images/baeri.png" alt="" /></a>
+											<div class="inner">
+												<h4>Space Science Data Lab at NASA Ames</h4>
+												<p> This group of researchers and postdocs work on devoloping dedicated
+													Kepler, K2 and TESS tools and data products for the community.
+
+												</p>
+											</div>
+										</article>
+										<article>
+											<a href="https://ui.adsabs.harvard.edu/abs/2020arXiv200507773M/abstract"
+											   class="image"><img src="images/vae_model_graph.png" alt="" /></a>
+											<div class="inner">
+												<h4>Deep Generative Modeling of Periodic Variable Stars Using Physical Parameters</h4>
+												<p> The ability to generate physically plausible ensembles of variable sources is critical
+													to the optimization of time-domain survey cadences and the training of classification
+													models on datasets with few to no labels. Traditional data augmentation techniques expand
+													training sets by reenvisioning observed exemplars, seeking to simulate observations of
+													specific training sources under different (exogenous) conditions. Unlike fully
+													theory-driven models, these approaches do not typically allow principled interpolation
+													nor extrapolation. Moreover, the principal drawback of theory-driven models lies in the
+													prohibitive computational cost of simulating source observables from {\it ab initio} parameters.
+													In this work, we propose a computationally tractable machine learning approach to generate
+													realistic light curves of periodic variables capable of integrating physical parameters and
+													variability classes as inputs. Our deep generative model, inspired by the Transparent
+													Latent Space Generative Adversarial Networks (TL-GANs), uses a Variational Autoencoder (VAE)
+													architecture with Temporal Convolutional Network (TCN) layers, trained using the
+													\hbox{OGLE-III} optical light curves and physical characteristics (e.g., effective
+													temperature and absolute magnitude) from Gaia DR2. A test using the temperature-shape
+													relationship of RR\,Lyrae demonstrates the efficacy of our generative
+													"Physics-Enhanced Latent Space VAE" (PELS-VAE) model. Such deep generative models,
+													serving as non-linear non-parametric emulators, present a novel tool for astronomers
+													to create synthetic time series over arbitrary cadences.
+												</p>
+											</div>
+										</article>
 										<article>
 											<a href="https://www.ml4science.org/home"
 											   class="image"><img src="images/ml4sc.png" alt="" /></a>
@@ -248,15 +289,18 @@
 	                                     </div>
 	                                     <br /><br />
 	                                     Affiliations:<br />
-	                                     <li class="fa-university"> <a href="">University of California, Berkeley</a> </li>
-	                                     <li class="fa-asterisk"> <a href="bccp.berkeley.edu">Astronomy Department</a> </li>
+	                                     <li class="fa-university"> <a href="https://baeri.org/">Bay Area Environmental Research Institute. NASA Ames</a> </li>
 	                                     <br /><br />
 	                                     Previously:<br />
+																			 <li class="fa-university"> <a href="https://astro.berkeley.edu/">University of California, Berkeley. Astronomy Department</a> </li>
 	                                     <li class="fa-university"> <a href="http://www.das.uchile.cl/web_en/index.html">Universidad de Chile, Astronomy Department</a> </li>
 	                                     <li class="fa-asterisk"> <a href="http://astroinf.cmm.uchile.cl/">Astroinformatic Laboratory, CMM, Universidad de Chile</a> </li>
 																			 <li class="fa-asterisk"> <a href="http://www.astrofisicamas.cl/en/">Millennium Institute of Astrophysics (MAS), Chile</a> </li>
 	                                     <br /><br />
-	                                     Collaborations and Surveys:<br />
+	                                     Collaborations:<br />
+																			 <li class="fa-code-fork"> <a href="https://github.com/SSDataLab">Space Science Data Lab at NASA Ames</a> </li>
+																			 <li class="fa-graduation-cap"> <a href="http://astrohackweek.org/2020/">Astro Hack Week</a> </li>
+																			 <li class="fa-globe"> <a href="">Edge-on disk Group, UCB</a> </li>
 	                                     <li class="fa-area-chart"> <a href="https://www.ml4science.org/home">ml4science</a> </li>
 																			 <li class="fa-tree"> <a href="http://alerce.science/">ALeRCE: Automatic Learning for the Rapid Classification of Events</a> </li>
 	                                     <li class="fa-star"> <a href="http://astroinf.cmm.uchile.cl/the-high-cadence-transient-survey-hits-real-time-detection-of-transient-events/">The High Cadence Transient Survey</a> </li>
